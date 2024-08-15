@@ -1,0 +1,80 @@
+﻿
+@model IEnumerable<buoi08.Areas.Admin.models.Hoa>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml";
+}
+
+@*~/Views/_shared/_LayoutPage1.cshtml*@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">Chào mừng bạn đã đến với Admin!</h4>
+            <p>Quản lý danh sách hoa dễ dàng hơn với các chức năng thêm, sửa, xóa.</p>
+            <hr>
+            <div class="container sanpham mt-4">
+                <a href="/Home44/Index">
+                    <button class="btn btn-primary">Trở về user</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2>Danh sách hoa</h2>
+            <p>
+                @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+            </p>
+        </div>
+
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.TenHoa)</th>
+                    <th>@Html.DisplayNameFor(model => model.GiaBan)</th>
+                    <th>@Html.DisplayNameFor(model => model.MoTa)</th>
+                    <th>@Html.DisplayNameFor(model => model.Anh)</th>
+                    <th>@Html.DisplayNameFor(model => model.SoLuongTon)</th>
+                    <th>@Html.DisplayNameFor(model => model.LoaiHoa.TenLoai)</th>
+                    <th>@Html.DisplayNameFor(model => model.NhaCungCap.TenNCC)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.TenHoa)</td>
+                        <td>@Html.DisplayFor(modelItem => item.GiaBan)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MoTa)</td>
+                        <td><img src="~/anhhoa/@item.Anh" style="width:100px;" /></td>
+                        <td>@Html.DisplayFor(modelItem => item.SoLuongTon)</td>
+                        <td>@Html.DisplayFor(modelItem => item.LoaiHoa.TenLoai)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NhaCungCap.TenNCC)</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                @Html.ActionLink("Edit", "Edit", new { id = item.MaHoa }, new { @class = "btn btn-warning btn-sm" })
+                                @Html.ActionLink("Details", "Details", new { id = item.MaHoa }, new { @class = "btn btn-info btn-sm" })
+                                @Html.ActionLink("Delete", "Delete", new { id = item.MaHoa }, new { @class = "btn btn-danger btn-sm" })
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    @*<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>*@
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

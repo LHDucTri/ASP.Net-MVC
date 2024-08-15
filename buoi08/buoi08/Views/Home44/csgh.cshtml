@@ -1,0 +1,136 @@
+﻿@{
+    ViewBag.Title = "Chính Sách Giao Hàng";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #28a745; /* Green color */
+            margin-top: 30px;
+            padding-left: 20px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        p, ul {
+            margin: 15px 20px;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            padding-left: 30px;
+        }
+
+        .highlight {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #007bff; /* Blue color */
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chính Sách Giao Hàng</h1>
+
+        <h2>1. Giới Thiệu</h2>
+        <div class="highlight">
+            <p>Chào mừng quý khách đến với website của shop hoa tươi chúng tôi. Khi truy cập và sử dụng website, quý khách đồng ý tuân thủ và bị ràng buộc bởi các điều khoản và điều kiện dưới đây. Nếu không đồng ý với bất kỳ điều khoản nào, xin vui lòng không sử dụng website của chúng tôi.</p>
+        </div>
+
+        <h2>2. Khu Vực Giao Hàng</h2>
+        <div class="highlight">
+            <p>Chúng tôi cung cấp dịch vụ giao hoa tươi tại các quận huyện trên địa bàn TP. Hồ Chí Minh. Đối với các khu vực xa trung tâm, chúng tôi sẽ tính thêm phụ phí vận chuyển dựa trên khoảng cách và thời gian giao hàng.</p>
+        </div>
+
+        <h2>3. Thời Gian Giao Hàng</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Giao hàng trong ngày:</strong> Đối với các đơn hàng được đặt trước, chúng tôi sẽ giao trong vòng 4-6 giờ từ khi nhận đơn.</li>
+                <li><strong>Giao hàng nhanh:</strong> Dịch vụ giao hàng trong vòng 2 giờ sẽ áp dụng cho các khu vực trung tâm.</li>
+            </ul>
+        </div>
+
+        <h2>4. Phí Vận Chuyển</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Phí vận chuyển nội thành:</strong> 30.000 - 50.000 VNĐ tùy theo khu vực giao hàng.</li>
+                <li><strong>Phí vận ngoại thành:</strong> 50.000 - 100.000 VNĐ cho dịch vụ giao hàng trong 2 giờ.</li>
+            </ul>
+        </div>
+
+        <h2>5. Quy Trình Giao Hàng</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Xác nhận đơn hàng:</strong> Sau khi đặt hàng, quý khách sẽ nhận được email hoặc tin nhắn xác nhận đơn hàng từ chúng tôi.</li>
+                <li><strong>Chuẩn bị và giao hàng:</strong> Đơn hàng của quý khách sẽ được xử lý, chuẩn bị và giao đến địa chỉ yêu cầu trong thời gian sớm nhất.</li>
+                <li><strong>Xác nhận giao hàng:</strong> Sau khi giao hàng thành công, chúng tôi sẽ gửi thông báo xác nhận qua email hoặc tin nhắn.</li>
+            </ul>
+        </div>
+
+        <h2>6. Điều Kiện Giao Hàng</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Địa chỉ chính xác:</strong> Quý khách vui lòng cung cấp địa chỉ giao hàng chi tiết và chính xác để tránh việc giao hàng trễ hoặc nhầm lẫn.</li>
+                <li><strong>Số điện thoại liên hệ:</strong> Đảm bảo rằng số điện thoại liên lạc của người nhận luôn hoạt động để chúng tôi có thể liên hệ khi cần thiết.</li>
+                <li><strong>Thời gian nhận hàng:</strong> Quý khách nên có mặt tại địa chỉ giao hàng trong khung giờ đã chọn để nhận hoa.</li>
+            </ul>
+        </div>
+
+        <h2>7. Chính Sách Đổi Trả</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Đổi trả trong vòng 2 giờ:</strong> Nếu có bất kỳ vấn đề gì về chất lượng hoa hoặc dịch vụ, quý khách có thể yêu cầu đổi trả trong vòng 2 giờ kể từ khi nhận hàng.</li>
+                <li><strong>Hoàn tiền:</strong> Trong trường hợp không thể đổi sản phẩm, chúng tôi sẽ hoàn lại tiền cho quý khách.</li>
+            </ul>
+        </div>
+
+        <h2>8. Liên Hệ Hỗ Trợ</h2>
+        <div class="highlight">
+            <p>Nếu có bất kỳ câu hỏi hay yêu cầu đặc biệt nào, quý khách vui lòng liên hệ với chúng tôi qua số hotline <span class="contact-info">086 277 5939</span> hoặc email <span class="contact-info">gochoaxinhnhom15@gmail.com</span>. Chúng tôi luôn sẵn sàng hỗ trợ quý khách.</p>
+        </div>
+        <div class="highlight">
+            <p>Chúng tôi hy vọng rằng chính sách giao hàng này sẽ giúp quý khách có thêm thông tin và yên tâm khi mua sắm tại shop hoa tươi của chúng tôi. Cảm ơn quý khách đã tin tưởng và ủng hộ!</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

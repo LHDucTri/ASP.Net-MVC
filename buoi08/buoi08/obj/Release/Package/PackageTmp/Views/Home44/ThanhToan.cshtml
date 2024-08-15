@@ -1,0 +1,48 @@
+﻿@using System.Web;
+@using System.Web.Mvc;
+@model buoi08.Models.ThanhToan
+@{
+    ViewBag.Title = "ThanhToan";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<h2>ThanhToan</h2>
+@using (Html.BeginForm("ThanhToan", "Home44", FormMethod.Post, new { @class = "form-inline" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label for="NgayGiao">Ngày Giao:</label>
+        @Html.TextBoxFor(m => m.NgayGiao, new { @class = "form-control", type = "date" })
+    </div>
+    <div class="form-group">
+        <label for="HoTenNgNhan">Họ Tên Người Nhận:</label>
+        @Html.TextBoxFor(m => m.HoTenNgNhan, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="GioitinhNgNhan">Giới Tính:</label>
+        @Html.DropDownListFor(m => m.GioitinhNgNhan, new SelectList(new[] { "Nam", "Nữ" }), new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="SDTNgNhan">SĐT Người Nhận:</label>
+        @Html.TextBoxFor(m => m.SDTNgNhan, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="LoiChuc">Lời Chúc:</label>
+        @Html.TextAreaFor(m => m.LoiChuc, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="MaPhuongThuc">Phương Thức Thanh Toán:</label>
+        <div>
+            <label>
+                @Html.RadioButtonFor(m => m.MaPhuongThuc, 1) Thanh toán bằng tiền mặt
+            </label>
+            <label>
+                @Html.RadioButtonFor(m => m.MaPhuongThuc, 2) Thanh toán online
+            </label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Thanh Toán</button>
+
+}
+
+

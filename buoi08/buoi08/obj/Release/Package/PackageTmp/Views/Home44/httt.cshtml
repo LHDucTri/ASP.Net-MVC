@@ -1,0 +1,132 @@
+﻿@{
+    ViewBag.Title = "Hình Thức Thanh Toán";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #28a745; /* Green color */
+            margin-top: 30px;
+            padding-left: 20px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        p, ul {
+            margin: 15px 20px;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            padding-left: 30px;
+        }
+
+        .highlight {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #007bff; /* Blue color */
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hình Thức Thanh Toán</h1>
+        <div class="content">
+            <div class="highlight">
+                <h2>Chính Sách Thanh Toán của Shop Hoa Tươi</h2>
+                <p>Chào mừng quý khách đến với shop hoa tươi của chúng tôi. Chúng tôi cam kết mang đến cho quý khách trải nghiệm mua sắm tiện lợi và an toàn nhất. Dưới đây là các hình thức thanh toán chi tiết mà chúng tôi hiện đang áp dụng:</p>
+            </div>
+                <h2>1. Thanh Toán Khi Nhận Hàng (COD)</h2>
+                <div class="highlight">
+                    <p><strong>Mô tả:</strong> Quý khách có thể chọn hình thức thanh toán khi nhận hàng (COD) để thanh toán trực tiếp cho nhân viên giao hàng khi sản phẩm được giao đến địa chỉ của quý khách.</p>
+                    <p><strong>Phí dịch vụ:</strong> Hình thức thanh toán COD có thể phát sinh phí dịch vụ thêm từ 10.000 VNĐ đến 20.000 VNĐ tùy theo khu vực giao hàng.</p>
+                    <p><strong>Lưu ý:</strong> Quý khách vui lòng chuẩn bị số tiền chính xác để thanh toán nhằm giúp quá trình giao hàng diễn ra nhanh chóng và thuận lợi.</p>
+                </div>
+
+                <h2>2. Chuyển Khoản Ngân Hàng</h2>
+                <div class="highlight">
+                    <p><strong>Mô tả:</strong> Quý khách có thể thanh toán bằng cách chuyển khoản vào tài khoản ngân hàng của chúng tôi trước khi nhận hàng.</p>
+                    <p><strong>Thông tin tài khoản ngân hàng:</strong></p>
+                    <ul>
+                        <li>Ngân hàng: **[Tên Ngân Hàng]**</li>
+                        <li>Chủ tài khoản: **[Tên Chủ Tài Khoản]**</li>
+                        <li>Số tài khoản: **[Số Tài Khoản]**</li>
+                        <li>Chi nhánh: **[Chi Nhánh]**</li>
+                    </ul>
+                    <p><strong>Quy trình thanh toán:</strong></p>
+                    <ul>
+                        <li>Sau khi đặt hàng, quý khách sẽ nhận được thông tin chi tiết về đơn hàng và tài khoản ngân hàng để chuyển khoản.</li>
+                        <li>Quý khách tiến hành chuyển khoản theo thông tin đã cung cấp, ghi rõ nội dung chuyển khoản là [Mã đơn hàng hoặc Số điện thoại đặt hàng].</li>
+                        <li>Sau khi chuyển khoản thành công, quý khách vui lòng thông báo cho chúng tôi qua hotline [số điện thoại của shop] hoặc email [email của shop] để xác nhận.</li>
+                        <li>Chúng tôi sẽ kiểm tra và xác nhận thanh toán, sau đó tiến hành giao hàng theo thời gian quy định.</li>
+                    </ul>
+                </div>
+
+                <h2>3. Thanh Toán Trực Tuyến Qua Cổng Thanh Toán</h2>
+                <div class="highlight">
+                    <p><strong>Mô tả:</strong> Chúng tôi đang triển khai tích hợp các cổng thanh toán trực tuyến (như Momo, ZaloPay, VNPay, v.v.) để tạo điều kiện thuận lợi hơn cho quý khách.</p>
+                    <p><strong>Phí dịch vụ:</strong> Không phát sinh phí dịch vụ cho hình thức thanh toán trực tuyến.</p>
+                    <p><strong>Lưu ý:</strong> Hình thức này sẽ được cập nhật và thông báo chi tiết khi chính thức áp dụng.</p>
+                </div>
+
+                <h2>4. Lưu Ý Chung</h2>
+                <div class="highlight">
+                    <ul>
+                        <li><strong>Xác nhận thanh toán:</strong> Đơn hàng của quý khách chỉ được xử lý sau khi chúng tôi nhận được xác nhận thanh toán (đối với hình thức chuyển khoản ngân hàng).</li>
+                        <li><strong>Thông tin chính xác:</strong> Quý khách vui lòng cung cấp đầy đủ và chính xác các thông tin cần thiết để tránh nhầm lẫn và chậm trễ trong quá trình xử lý đơn hàng.</li>
+                        <li><strong>Bảo mật thông tin:</strong> Chúng tôi cam kết bảo mật tuyệt đối các thông tin thanh toán của quý khách và chỉ sử dụng cho mục đích xử lý đơn hàng.</li>
+                    </ul>
+                </div>
+
+                <h2>5. Liên Hệ Hỗ Trợ</h2>
+                <div class="highlight">
+                    <p>Nếu quý khách có bất kỳ câu hỏi hoặc gặp vấn đề liên quan đến thanh toán, vui lòng liên hệ với chúng tôi qua số hotline 086 277 5939 hoặc email gochoaxinhnhom15@gmail.com.</p>
+                </div>
+                <div class="highlight">
+                    <p>Chúng tôi hy vọng rằng các hình thức thanh toán này sẽ giúp quý khách có thêm nhiều sự lựa chọn và yên tâm hơn khi mua sắm tại shop hoa tươi của chúng tôi. Cảm ơn quý khách đã tin tưởng và ủng hộ!</p>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

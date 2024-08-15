@@ -1,0 +1,12 @@
+﻿@using System.Web;
+@using System.Web.Mvc;
+@{
+    ViewBag.Title = "FaileureView";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<h2>Thanh Toán Thất Bại</h2>
+
+<p>Rất tiếc, thanh toán của bạn không thành công. Vui lòng thử lại sau hoặc liên hệ với chúng tôi nếu vấn đề vẫn tiếp diễn.</p>
+<a href="@Url.Action("Cart", "Cart")" class="btn btn-primary">Trở về giỏ hàng</a>
+

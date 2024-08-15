@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4b5a3b25d3e4435989cc51357f533ad1" Name="Diagram1">
+        <EntityTypeShape EntityType="Doanltweb3Model.ChiTietDonHang" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Doanltweb3Model.DonHang" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Doanltweb3Model.Hoa" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Doanltweb3Model.KhachHang" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Doanltweb3Model.LienHe" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Doanltweb3Model.LoaiHoa" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Doanltweb3Model.NhaCungCap" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Doanltweb3Model.PhuongThucThanhToan" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Doanltweb3Model.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="Doanltweb3Model.FK__ChiTietDo__MaDon__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="Doanltweb3Model.FK__ChiTietDo__MaHoa__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="Doanltweb3Model.FK__DonHang__MaKH__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="Doanltweb3Model.FK__DonHang__MaPhuon__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="Doanltweb3Model.FK__Hoa__MaLoai__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="Doanltweb3Model.FK__Hoa__MaNCC__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="Doanltweb3Model.FK__LienHe__MaKH__38996AB5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,514 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>buoi08</RootNamespace>
+    <AssemblyName>buoi08</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44391</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PayPal, Version=1.9.1.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPal.1.9.1\lib\net451\PayPal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.9\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.9\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.9\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.9\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.9\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.9\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Anhbia_44\7044033_zalo_icon.png" />
+    <Content Include="Anhbia_44\anhslide1.jpeg" />
+    <Content Include="Anhbia_44\anhslide2.jpeg" />
+    <Content Include="Anhbia_44\bocongthuong.jpg" />
+    <Content Include="Anhbia_44\lien_he.jpg" />
+    <Content Include="Anhbia_44\SP000001.jpg" />
+    <Content Include="Anhbia_44\SP00008.jpg" />
+    <Content Include="Anhbia_44\SP000002.jpg" />
+    <Content Include="Anhbia_44\SP000003.jpg" />
+    <Content Include="Anhbia_44\SP000004.jpg" />
+    <Content Include="Anhbia_44\SP000005.jpg" />
+    <Content Include="Anhbia_44\SP000006.jpg" />
+    <Content Include="Anhbia_44\SP000007.jpg" />
+    <Content Include="Anhbia_44\SP000008.jpg" />
+    <Content Include="Anhbia_44\SP000009.jpg" />
+    <Content Include="Anhbia_44\SP000011.jpg" />
+    <Content Include="Anhbia_44\SP000012.jpg" />
+    <Content Include="Anhbia_44\SP000013.jpg" />
+    <Content Include="Anhbia_44\SP000014.jpg" />
+    <Content Include="Anhbia_44\SP000015.jpg" />
+    <Content Include="Anhbia_44\SP000016.jpg" />
+    <Content Include="Anhbia_44\SP000017.jpg" />
+    <Content Include="Anhbia_44\SP000018.jpg" />
+    <Content Include="Anhbia_44\SP000019.jpg" />
+    <Content Include="Anhbia_44\SP000020.jpg" />
+    <Content Include="Anhbia_44\SP000021.jpg" />
+    <Content Include="Anhbia_44\SP000022.jpg" />
+    <Content Include="Anhbia_44\SP000023.jpg" />
+    <Content Include="Anhbia_44\SP000024.jpg" />
+    <Content Include="Anhbia_44\SP000025.jpg" />
+    <Content Include="Anhbia_44\SP000026.jpg" />
+    <Content Include="Anhbia_44\SP000027.jpg" />
+    <Content Include="Anhbia_44\SP000028.jpg" />
+    <Content Include="Anhbia_44\SP000029.jpg" />
+    <Content Include="Anhbia_44\SP000030.jpg" />
+    <Content Include="Anhbia_44\SP000031.jpg" />
+    <Content Include="Anhbia_44\SP000032.jpg" />
+    <Content Include="Anhbia_44\SP000033.jpg" />
+    <Content Include="Anhbia_44\SP000034.jpg" />
+    <Content Include="Anhbia_44\SP000035.jpg" />
+    <Content Include="Anhbia_44\SP000036.jpg" />
+    <Content Include="Anhbia_44\SP000037.jpg" />
+    <Content Include="Anhbia_44\SP000038.jpg" />
+    <Content Include="Anhbia_44\SP000039.jpg" />
+    <Content Include="Anhbia_44\SP000040.jpg" />
+    <Content Include="Anhbia_44\SP000041.jpg" />
+    <Content Include="Anhbia_44\SP000042.jpg" />
+    <Content Include="Anhbia_44\SP000043.jpg" />
+    <Content Include="Anhbia_44\SP000044.jpg" />
+    <Content Include="Anhbia_44\SP000045.jpg" />
+    <Content Include="Anhbia_44\SP000046.jpg" />
+    <Content Include="Anhbia_44\SP000047.jpg" />
+    <Content Include="Anhbia_44\SP000088.jpg" />
+    <Content Include="Anhbia_44\SP000089.jpg" />
+    <Content Include="Anhbia_44\SP000090.jpg" />
+    <Content Include="Anhbia_44\SP000091.jpg" />
+    <Content Include="Anhbia_44\SP000092.jpg" />
+    <Content Include="Anhbia_44\SP000093.jpg" />
+    <Content Include="Anhbia_44\SP000094.jpg" />
+    <Content Include="Anhbia_44\SP000095.jpg" />
+    <Content Include="Anhbia_44\SP000096.jpg" />
+    <Content Include="Anhbia_44\SP000097.jpg" />
+    <Content Include="Anhbia_44\SP000098.jpg" />
+    <Content Include="Anhbia_44\SP000099.jpg" />
+    <Content Include="anhhoa\SP000001.jpg" />
+    <Content Include="anhhoa\SP000002.jpg" />
+    <Content Include="anhhoa\SP000003.jpg" />
+    <Content Include="anhhoa\SP000004.jpg" />
+    <Content Include="anhhoa\SP000005.jpg" />
+    <Content Include="anhhoa\SP000006.jpg" />
+    <Content Include="anhhoa\SP000007.jpg" />
+    <Content Include="anhhoa\SP000008.jpg" />
+    <Content Include="anhhoa\SP000009.jpg" />
+    <Content Include="anhhoa\SP000011.jpg" />
+    <Content Include="anhhoa\SP000012.jpg" />
+    <Content Include="anhhoa\SP000013.jpg" />
+    <Content Include="anhhoa\SP000014.jpg" />
+    <Content Include="anhhoa\SP000015.jpg" />
+    <Content Include="anhhoa\SP000016.jpg" />
+    <Content Include="anhhoa\SP000017.jpg" />
+    <Content Include="anhhoa\SP000018.jpg" />
+    <Content Include="anhhoa\SP000019.jpg" />
+    <Content Include="anhhoa\SP000020.jpg" />
+    <Content Include="anhhoa\SP000021.jpg" />
+    <Content Include="anhhoa\SP000022.jpg" />
+    <Content Include="anhhoa\SP000023.jpg" />
+    <Content Include="anhhoa\SP000024.jpg" />
+    <Content Include="anhhoa\SP000025.jpg" />
+    <Content Include="anhhoa\SP000026.jpg" />
+    <Content Include="anhhoa\SP000027.jpg" />
+    <Content Include="anhhoa\SP000028.jpg" />
+    <Content Include="anhhoa\SP000029.jpg" />
+    <Content Include="anhhoa\SP000030.jpg" />
+    <Content Include="anhhoa\SP000031.jpg" />
+    <Content Include="anhhoa\SP000032.jpg" />
+    <Content Include="anhhoa\SP000033.jpg" />
+    <Content Include="anhhoa\SP000034.jpg" />
+    <Content Include="anhhoa\SP000035.jpg" />
+    <Content Include="anhhoa\SP000036.jpg" />
+    <Content Include="anhhoa\SP000037.jpg" />
+    <Content Include="anhhoa\SP000038.jpg" />
+    <Content Include="anhhoa\SP000039.jpg" />
+    <Content Include="anhhoa\SP000040.jpg" />
+    <Content Include="anhhoa\SP000041.jpg" />
+    <Content Include="anhhoa\SP000042.jpg" />
+    <Content Include="anhhoa\SP000043.jpg" />
+    <Content Include="anhhoa\SP000044.jpg" />
+    <Content Include="anhhoa\SP000045.jpg" />
+    <Content Include="anhhoa\SP000046.jpg" />
+    <Content Include="anhhoa\SP000047.jpg" />
+    <Content Include="anhhoa\SP00008.jpg" />
+    <Content Include="anhhoa\SP000088.jpg" />
+    <Content Include="anhhoa\SP000089.jpg" />
+    <Content Include="anhhoa\SP000090.jpg" />
+    <Content Include="anhhoa\SP000091.jpg" />
+    <Content Include="anhhoa\SP000092.jpg" />
+    <Content Include="anhhoa\SP000093.jpg" />
+    <Content Include="anhhoa\SP000094.jpg" />
+    <Content Include="anhhoa\SP000095.jpg" />
+    <Content Include="anhhoa\SP000096.jpg" />
+    <Content Include="anhhoa\SP000097.jpg" />
+    <Content Include="anhhoa\SP000098.jpg" />
+    <Content Include="anhhoa\SP000099.jpg" />
+    <Content Include="anhhoa\tintuc1.png" />
+    <Content Include="anhhoa\tintuc2.png" />
+    <Content Include="anhhoa\tintuc3.png" />
+    <Content Include="anhhoa\tintuc4.png" />
+    <Content Include="Areas\Admin\models\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Areas\Admin\models\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Content\template\neworder.html" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\ChiTietDonHangsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\DonHangsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HoasController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\KhachHangsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\LienHesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\LoaiHoasController.cs" />
+    <Compile Include="Areas\Admin\Controllers\NhaCungCapsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PhuongThucThanhToansController.cs" />
+    <Compile Include="Areas\Admin\models\ChiTietDonHang.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\DonHang.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\Hoa.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\KhachHang.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\LienHe.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\LoaiHoa.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\NhaCungCap.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\PhuongThucThanhToan.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\models\sysdiagram.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\HoaController.cs" />
+    <Compile Include="Controllers\Home44Controller.cs" />
+    <Compile Include="Controllers\MoTaController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\CartItem.cs" />
+    <Compile Include="Models\ChuDe.cs" />
+    <Compile Include="Models\Hoa.cs" />
+    <Compile Include="Models\Lienhe.cs" />
+    <Compile Include="Models\PaypalConfiguration.cs" />
+    <Compile Include="Models\ThanhToan.cs" />
+    <Compile Include="Models\ThanhToanViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\AdminLayoutPage1.cshtml" />
+    <EntityDeploy Include="Areas\Admin\models\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Areas\Admin\models\Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Areas\Admin\Views\Hoas\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Hoas\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Hoas\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Hoas\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Hoas\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\KhachHangs\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHangs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHangs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHangs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHangs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\DonHangs\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\LoaiHoas\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\LoaiHoas\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\LoaiHoas\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\LoaiHoas\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\LoaiHoas\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\NhaCungCaps\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\NhaCungCaps\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\NhaCungCaps\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\NhaCungCaps\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\NhaCungCaps\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\PhuongThucThanhToans\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\PhuongThucThanhToans\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\PhuongThucThanhToans\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\PhuongThucThanhToans\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\PhuongThucThanhToans\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\LienHes\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\LienHes\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\LienHes\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\LienHes\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\LienHes\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ChiTietDonHangs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\ChiTietDonHangs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\ChiTietDonHangs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\ChiTietDonHangs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\ChiTietDonHangs\Index.cshtml" />
+    <Content Include="File PDF\baocuacaonhom15.pdf" />
+    <None Include="packages.config" />
+    <Content Include="Views\_shared\_LayoutPage1.cshtml" />
+    <Content Include="Views\Home44\Index.cshtml" />
+    <Content Include="Views\Home44\chude.cshtml" />
+    <Content Include="Views\Home44\Lienhe.cshtml" />
+    <Content Include="Views\Home44\httt.cshtml" />
+    <Content Include="Views\Home44\csgh.cshtml" />
+    <Content Include="Views\Home44\csbm.cshtml" />
+    <Content Include="Views\Home44\dksd.cshtml" />
+    <Content Include="Views\Home44\Login.cshtml" />
+    <Content Include="Views\Home44\Register.cshtml" />
+    <Content Include="Views\Home44\Tintuc.cshtml" />
+    <Content Include="Views\MoTa\SP000001.cshtml" />
+    <Content Include="Views\MoTa\SP000002.cshtml" />
+    <Content Include="Views\MoTa\SP000003.cshtml" />
+    <Content Include="Views\MoTa\SP000004.cshtml" />
+    <Content Include="Views\MoTa\SP000005.cshtml" />
+    <Content Include="Views\MoTa\SP000006.cshtml" />
+    <Content Include="Views\MoTa\SP000007.cshtml" />
+    <Content Include="Views\MoTa\SP000008.cshtml" />
+    <Content Include="Views\MoTa\SP000009.cshtml" />
+    <Content Include="Views\MoTa\SP000010.cshtml" />
+    <Content Include="Views\MoTa\SP000011.cshtml" />
+    <Content Include="Views\MoTa\SP000012.cshtml" />
+    <Content Include="Views\MoTa\SP000013.cshtml" />
+    <Content Include="Views\MoTa\SP000014.cshtml" />
+    <Content Include="Views\MoTa\SP000015.cshtml" />
+    <Content Include="Views\MoTa\SP000016.cshtml" />
+    <Content Include="Views\MoTa\SP000017.cshtml" />
+    <Content Include="Views\MoTa\SP000018.cshtml" />
+    <Content Include="Views\MoTa\SP000019.cshtml" />
+    <Content Include="Views\MoTa\SP000020.cshtml" />
+    <Content Include="Views\MoTa\SP000021.cshtml" />
+    <Content Include="Views\MoTa\SP000022.cshtml" />
+    <Content Include="Views\MoTa\SP000023.cshtml" />
+    <Content Include="Views\MoTa\SP000024.cshtml" />
+    <Content Include="Views\MoTa\SP000025.cshtml" />
+    <Content Include="Views\MoTa\SP000026.cshtml" />
+    <Content Include="Views\MoTa\SP000027.cshtml" />
+    <Content Include="Views\MoTa\SP000028.cshtml" />
+    <Content Include="Views\MoTa\SP000029.cshtml" />
+    <Content Include="Views\MoTa\SP000030.cshtml" />
+    <Content Include="Views\MoTa\SP000031.cshtml" />
+    <Content Include="Views\MoTa\SP000032.cshtml" />
+    <Content Include="Views\MoTa\SP000033.cshtml" />
+    <Content Include="Views\MoTa\SP000034.cshtml" />
+    <Content Include="Views\MoTa\SP000035.cshtml" />
+    <Content Include="Views\MoTa\SP000036.cshtml" />
+    <Content Include="Views\MoTa\SP000037.cshtml" />
+    <Content Include="Views\MoTa\SP000038.cshtml" />
+    <Content Include="Views\MoTa\SP000039.cshtml" />
+    <Content Include="Views\MoTa\SP000040.cshtml" />
+    <Content Include="Views\MoTa\SP000041.cshtml" />
+    <Content Include="Views\MoTa\SP000042.cshtml" />
+    <Content Include="Views\MoTa\SP000043.cshtml" />
+    <Content Include="Views\MoTa\SP000044.cshtml" />
+    <Content Include="Views\MoTa\SP000045.cshtml" />
+    <Content Include="Views\MoTa\SP000046.cshtml" />
+    <Content Include="Views\MoTa\SP000047.cshtml" />
+    <Content Include="Views\MoTa\SP000088.cshtml" />
+    <Content Include="Views\MoTa\SP000089.cshtml" />
+    <Content Include="Views\MoTa\SP000090.cshtml" />
+    <Content Include="Views\MoTa\SP000091.cshtml" />
+    <Content Include="Views\MoTa\SP000092.cshtml" />
+    <Content Include="Views\MoTa\SP000093.cshtml" />
+    <Content Include="Views\MoTa\SP000094.cshtml" />
+    <Content Include="Views\MoTa\SP000095.cshtml" />
+    <Content Include="Views\MoTa\SP000096.cshtml" />
+    <Content Include="Views\MoTa\SP000097.cshtml" />
+    <Content Include="Views\MoTa\SP000098.cshtml" />
+    <Content Include="Views\MoTa\SP000099.cshtml" />
+    <Content Include="Views\Home44\bht.cshtml" />
+    <Content Include="Views\Home44\ghcm.cshtml" />
+    <Content Include="Views\Home44\hoacuoi.cshtml" />
+    <Content Include="Views\Home44\hoasap.cshtml" />
+    <Content Include="Views\Home44\kehoa.cshtml" />
+    <Content Include="Views\Home44\Logout.cshtml" />
+    <Content Include="Views\Hoa\SearchHoa.cshtml" />
+    <Content Include="Views\Cart\AddToCart.cshtml" />
+    <Content Include="Views\Cart\Cart.cshtml" />
+    <Content Include="Views\Home44\ThanhToanThanhCong.cshtml" />
+    <Content Include="Views\Home44\PaymentSuccess.cshtml" />
+    <Content Include="Views\Home44\SuccessView.cshtml" />
+    <Content Include="Views\Home44\FaileureView.cshtml" />
+    <Content Include="Views\Home44\ThanhToanOnline.cshtml" />
+    <Content Include="Views\Home44\ThanhToanCancel.cshtml" />
+    <Content Include="Views\Home44\PaymentWithPaypal.cshtml" />
+    <Content Include="Views\Home44\ThanhToan.cshtml" />
+    <Content Include="Views\Hoa\SortByName.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Views\Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55417</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44391/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,137 @@
+﻿@{
+    ViewBag.Title = "Điều Khoản Sử Dụng";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            color: #333;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            color: #28a745; /* Green color */
+            margin-top: 30px;
+            padding-left: 20px;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        p, ul {
+            margin: 15px 20px;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            padding-left: 30px;
+        }
+
+        .highlight {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #007bff; /* Blue color */
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Điều Khoản Sử Dụng</h1>
+
+        <h2>1. Giới Thiệu</h2>
+        <div class="highlight">
+            <p>Chào mừng quý khách đến với website của shop hoa tươi chúng tôi. Khi truy cập và sử dụng website, quý khách đồng ý tuân thủ và bị ràng buộc bởi các điều khoản và điều kiện dưới đây. Nếu không đồng ý với bất kỳ điều khoản nào, xin vui lòng không sử dụng website của chúng tôi.</p>
+        </div>
+
+        <h2>2. Sử Dụng Website</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Đăng ký tài khoản:</strong> Quý khách có thể đăng ký tài khoản để tiện lợi hơn trong quá trình mua sắm. Thông tin cá nhân cung cấp phải chính xác và đầy đủ. Quý khách chịu trách nhiệm bảo mật tài khoản và mật khẩu của mình.</li>
+                <li><strong>Hành vi cấm:</strong> Quý khách không được sử dụng website để thực hiện các hành vi bất hợp pháp, vi phạm quyền của bên thứ ba hoặc gây hại đến hệ thống của chúng tôi.</li>
+            </ul>
+        </div>
+
+        <h2>3. Quyền Sở Hữu Trí Tuệ</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Bản quyền:</strong> Toàn bộ nội dung trên website, bao gồm nhưng không giới hạn ở văn bản, hình ảnh, video, đồ họa và phần mềm, đều thuộc quyền sở hữu của chúng tôi hoặc các bên cấp phép. Quý khách không được sao chép, tái bản hoặc sử dụng bất kỳ nội dung nào mà không có sự đồng ý bằng văn bản của chúng tôi.</li>
+                <li><strong>Nhãn hiệu:</strong> Các nhãn hiệu, logo và tên thương mại hiển thị trên website là tài sản của chúng tôi hoặc các bên sở hữu tương ứng. Quý khách không được phép sử dụng các nhãn hiệu này mà không có sự cho phép trước.</li>
+            </ul>
+        </div>
+
+        <h2>4. Đặt Hàng và Thanh Toán</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Đặt hàng:</strong> Khi đặt hàng qua website, quý khách đồng ý cung cấp thông tin chính xác và đầy đủ. Chúng tôi có quyền từ chối hoặc hủy bỏ bất kỳ đơn hàng nào nếu thông tin cung cấp không chính xác hoặc không đủ điều kiện.</li>
+                <li><strong>Thanh toán:</strong> Quý khách có thể chọn một trong các hình thức thanh toán mà chúng tôi cung cấp. Thanh toán phải được thực hiện đầy đủ và đúng hạn. Chúng tôi không chịu trách nhiệm cho bất kỳ thiệt hại nào phát sinh từ việc sử dụng sai hình thức thanh toán.</li>
+            </ul>
+        </div>
+
+        <h2>5. Giao Hàng và Bảo Hành</h2>
+        <div class="highlight">
+            <ul>
+                <li><strong>Giao hàng:</strong> Chúng tôi sẽ giao hàng theo chính sách giao hàng đã công bố. Quý khách cần cung cấp địa chỉ giao hàng chính xác và nhận hàng trong thời gian đã thỏa thuận.</li>
+                <li><strong>Bảo hành:</strong> Chúng tôi cam kết bảo hành sản phẩm theo chính sách bảo hành đã công bố. Quý khách có thể yêu cầu đổi trả hoặc hoàn tiền nếu sản phẩm không đạt chất lượng.</li>
+            </ul>
+        </div>
+
+        <h2>6. Chính Sách Bảo Mật</h2>
+        <div class="highlight">
+            <p>Chúng tôi cam kết bảo mật thông tin cá nhân của quý khách theo chính sách bảo mật đã công bố. Thông tin cá nhân sẽ được sử dụng và bảo vệ theo đúng quy định của pháp luật.</p>
+        </div>
+
+        <h2>7. Giới Hạn Trách Nhiệm</h2>
+        <div class="highlight">
+            <p>Chúng tôi không chịu trách nhiệm cho bất kỳ thiệt hại trực tiếp, gián tiếp, ngẫu nhiên hoặc hậu quả nào phát sinh từ việc sử dụng hoặc không thể sử dụng website của chúng tôi.</p>
+        </div>
+
+        <h2>8. Thay Đổi Điều Khoản Sử Dụng</h2>
+        <div class="highlight">
+            <p>Chúng tôi có quyền thay đổi, điều chỉnh các điều khoản sử dụng này bất kỳ lúc nào mà không cần thông báo trước. Quý khách có trách nhiệm kiểm tra định kỳ để cập nhật các thay đổi.</p>
+        </div>
+
+        <h2>9. Liên Hệ</h2>
+        <div class="highlight">
+            <p>Nếu quý khách có bất kỳ câu hỏi hoặc yêu cầu nào liên quan đến các điều khoản sử dụng này, vui lòng liên hệ với chúng tôi qua số hotline <span class="contact-info">086 277 5939</span> hoặc email <span class="contact-info">gochoaxinhnhom15@gmail.com</span>. Chúng tôi luôn sẵn sàng hỗ trợ quý khách.</p>
+        </div>
+
+        <div class="highlight">
+            <p>Chúng tôi hy vọng rằng các điều khoản sử dụng này sẽ giúp quý khách hiểu rõ quyền và trách nhiệm của mình khi sử dụng website của chúng tôi. Cảm ơn quý khách đã tin tưởng và ủng hộ!</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

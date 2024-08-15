@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\controllers\\home44controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\controllers\\home44controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|c:\\users\\gthua\\source\\repos\\do an anh hieu\\do an 2\\buoi08\\buoi08\\views\\home44\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\home44\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\views\\home44\\kehoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\home44\\kehoa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\views\\home44\\ghcm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\home44\\ghcm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\views\\home44\\bht.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\home44\\bht.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\controllers\\motacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\controllers\\motacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\views\\mota\\sp000099.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\mota\\sp000099.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\models\\chude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\models\\chude.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\views\\_shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\_shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\views\\mota\\sp000010.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\mota\\sp000010.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\views\\mota\\sp000001.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\mota\\sp000001.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\views\\home44\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DA3F0B1-74D8-4870-9DDE-B2A211FDB0AD}|buoi08\\buoi08.csproj|solutionrelative:buoi08\\views\\home44\\lienhe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\Index.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\Home44\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\Index.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\Home44\\Index.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAiwHEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T17:41:41.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home44Controller.cs",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Controllers\\Home44Controller.cs",
+              "RelativeDocumentMoniker": "buoi08\\Controllers\\Home44Controller.cs",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Controllers\\Home44Controller.cs",
+              "RelativeToolTip": "buoi08\\Controllers\\Home44Controller.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAIoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T04:30:08.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Web.config",
+              "RelativeDocumentMoniker": "buoi08\\Web.config",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Web.config",
+              "RelativeToolTip": "buoi08\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-01T04:27:38.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoTaController.cs",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Controllers\\MoTaController.cs",
+              "RelativeDocumentMoniker": "buoi08\\Controllers\\MoTaController.cs",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Controllers\\MoTaController.cs",
+              "RelativeToolTip": "buoi08\\Controllers\\MoTaController.cs",
+              "ViewState": "AQIAAO0AAAAAAAAAAAAAAPQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T02:50:13.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bht.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\bht.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\Home44\\bht.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\bht.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\Home44\\bht.cshtml",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAFYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T04:35:57.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ghcm.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\ghcm.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\Home44\\ghcm.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\ghcm.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\Home44\\ghcm.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAF0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T04:35:05.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "kehoa.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\kehoa.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\Home44\\kehoa.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\kehoa.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\Home44\\kehoa.cshtml",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAYwF0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T04:35:29.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\_shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\_shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\_shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\_shared\\_LayoutPage1.cshtml",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAAMMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T18:22:41.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SP000010.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\MoTa\\SP000010.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\MoTa\\SP000010.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\MoTa\\SP000010.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\MoTa\\SP000010.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T18:11:50.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SP000099.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\MoTa\\SP000099.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\MoTa\\SP000099.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\MoTa\\SP000099.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\MoTa\\SP000099.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T18:07:35.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChuDe.cs",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Models\\ChuDe.cs",
+              "RelativeDocumentMoniker": "buoi08\\Models\\ChuDe.cs",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Models\\ChuDe.cs",
+              "RelativeToolTip": "buoi08\\Models\\ChuDe.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T04:27:46.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SP000001.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\MoTa\\SP000001.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\MoTa\\SP000001.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\MoTa\\SP000001.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\MoTa\\SP000001.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T16:26:48.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Lienhe.cshtml",
+              "DocumentMoniker": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\Lienhe.cshtml",
+              "RelativeDocumentMoniker": "buoi08\\Views\\Home44\\Lienhe.cshtml",
+              "ToolTip": "C:\\Users\\gthua\\source\\repos\\DO AN ANH HIEU\\DO AN 2\\buoi08\\buoi08\\Views\\Home44\\Lienhe.cshtml",
+              "RelativeToolTip": "buoi08\\Views\\Home44\\Lienhe.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T05:48:04.505Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

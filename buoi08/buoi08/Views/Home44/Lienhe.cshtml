@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "Lienhe";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<
+    <title>Trang Liên Hệ</title>
+    <style>
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Kiểu dáng chữ */
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Form */
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #007bff; /* Màu xanh dương */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: black;
+        }
+
+            .contact-info a:hover {
+                text-decoration: underline;
+                color: blue; /* Thay đổi màu khi hover nếu bạn muốn */
+            }
+
+        .contact-info p {
+            font-size: 16px; /* Điều chỉnh kích thước chữ nếu cần */
+        }
+
+    </style>
+
+<body>
+   
+    <main>
+        <div class="contact-info">
+            <h2>Thông Tin Liên Hệ</h2>
+            <p class="large-text"><strong>Email:</strong> <a href="mailto:lehongductri2911@gmail.com">lehongductri2911@gmail.com</a></p>
+            <p class="large-text"><strong>FaceBook:</strong> <a href="https://www.facebook.com/le.tri.292003/?locale=vi_VN">Facebook</a></p>
+            <p class="large-text"><strong>Instagram:</strong> <a href="https://www.instagram.com/ductrisss/">Instagram</a></p>
+            <p>Số điện thoại: 0386826641</p>
+            <p>Địa chỉ: <a href="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+%C4%90%E1%BA%A1i+h%E1%BB%8Dc+C%C3%B4ng+Th%C6%B0%C6%A1ng+TP.+H%E1%BB%93+Ch%C3%AD+Minh+(HUIT)/10.8061592,106.6260907,17z/data=!3m1!4b1!4m6!3m5!1s0x31752be27d8b4f4d:0x92dcba2950430867!8m2!3d10.8061539!4d106.6286656!16s%2Fm%2F0vb3q34?entry=ttu" target="_blank">14 Đường Lê Trọng Tấn, Thành phố Hồ Chí Minh</a></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.067279078097!2d106.62609067407043!3d10.806159158646548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBUaMawxqFuZyBUUC4gSOG7kyBDaMOtIE1pbmggKEhVSVQp!5e0!3m2!1svi!2s!4v1722434436056!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </div>
+        <div class="contact-form col-md-3">
+            <h2>Gửi Tin Nhắn Cho Chúng Tôi</h2>
+            <form>
+                <label for="name">Tên:</label>
+                <input type="text" id="name" name="Name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required>
+                <label for="message">Tin Nhắn:</label>
+                <textarea id="message" id="message" name="Message" rows="5" required></textarea>
+                <button type="submit">Gửi</button>
+            </form>
+
+            <script>
+                function sendEmail() {
+                    var name = document.getElementById('name').value;
+                    var email = document.getElementById('email').value;
+                    var message = document.getElementById('message').value;
+                    var subject = "Thông tin liên hệ từ " + name;
+                    var body = "Tên: " + name + "\nEmail: " + email + "\n\n" + message;
+
+                    window.location.href = "mailto:lehongductri2911@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+                }</script>
+
+        </div>
+    </main>
+
+

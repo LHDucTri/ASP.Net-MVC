@@ -1,0 +1,37 @@
+﻿@using buoi08.Models;
+@model Hoa
+    ViewBag.Title = "chude";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<h2>chude</h2>
+@foreach (var s in Model.danhsach)
+{
+    <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="card">
+            <div class="card-header">
+                @s.tenhoa
+            </div>
+            <div class="card-body">
+                <img src="/Anhbia_44/@s.anhbia" />
+            </div>
+            <div class="card-footer">
+                @s.giaban;
+            </div>
+        </div>
+    </div>
+}
+@section trai{
+    <h1>DANH SACH CHU DE</h1>
+    <ul>
+        @{
+            var chude = (ChuDe)ViewData["cd"];
+        }
+        @foreach (var cd in chude.danhsach)
+        {
+            <li><a href="/Home42/chude/@cd.maloai">@cd.tenloai</a></li>
+        }
+    </ul>
+}
+
+

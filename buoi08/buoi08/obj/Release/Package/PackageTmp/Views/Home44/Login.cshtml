@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        body {
+            background-color: #f0f4f8;
+        }
+
+        .text-gray-900 {
+            color: #333;
+        }
+
+        .link-primary {
+            color: #0d6efd;
+        }
+
+            .link-primary:hover {
+                color: #0a58ca;
+            }
+
+        .alert {
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+
+            .btn-primary:hover {
+                background-color: #0b5ed7;
+                border-color: #0b5ed7;
+            }
+
+        .form-control {
+            border-radius: 0.375rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex flex-column min-vh-100 justify-content-center py-4">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <h2 class="mt-4 mb-3 fw-bold text-gray-900">
+                        Login to your account
+                    </h2>
+                </div>
+
+                <form action="/Home44/Login" method="post">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">UserName</label>
+                        <input id="username" name="username" type="text" class="form-control" placeholder="Enter your username" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input id="password" name="password" type="password" class="form-control" placeholder="Enter your password" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

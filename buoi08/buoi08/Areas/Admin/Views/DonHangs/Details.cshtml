@@ -1,0 +1,91 @@
+﻿@model buoi08.Areas.Admin.models.DonHang
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DonHang</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayGiao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayGiao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThanhTien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThanhTien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayLap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayLap)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HoTenNgNhan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoTenNgNhan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioitinhNgNhan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioitinhNgNhan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SDTNgNhan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SDTNgNhan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoiChuc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoiChuc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KhachHang.HoTen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KhachHang.HoTen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhuongThucThanhToan.HinhThuc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhuongThucThanhToan.HinhThuc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaDonHang }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

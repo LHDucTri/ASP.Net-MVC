@@ -1,0 +1,222 @@
+﻿
+@{
+    ViewBag.Title = "SearchHoa";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+<style>
+    body {
+        background-color: #f0f4f8;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .card {
+        border: none;
+        border-radius: 12px;
+        overflow: hidden;
+        background: #ffffff;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        margin-bottom: 30px;
+        transform: scale(1);
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+
+    .card-header {
+        background: linear-gradient(to right, #4a90e2, #9013fe);
+        color: #ffffff;
+        /*padding: 20px;*/
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .card-body {
+        /* padding: 15px;*/
+        text-align: center;
+    }
+
+        .card-body img {
+            width: 100%;
+            height: auto%;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+            .card-body img:hover {
+                transform: scale(1.05);
+            }
+
+    .card-footer {
+        background: #f8f9fa;
+        /*padding: 20px;*/ /* Tăng giá trị padding */
+        text-align: center;
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #27ae60;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%; /* Đảm bảo phần footer chiếm toàn bộ chiều rộng của thẻ card */
+        box-sizing: border-box; /* Bao gồm cả padding trong chiều rộng tổng */
+    }
+
+
+    .btn-add-to-cart {
+        background-color: #27ae60;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        /* padding: 10px 15px;*/
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-add-to-cart:hover {
+            background-color: #219150;
+        }
+
+    .card-link {
+        text-decoration: none; /* Loại bỏ gạch chân mặc định */
+        color: inherit; /* Kế thừa màu chữ từ phần tử con */
+    }
+
+        .card-link .card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+            .card-link .card:hover {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+    /* slide-show*/
+    .slideshow-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .slideshow {
+        width: 80%;
+        max-width: 700px;
+        position: relative;
+        overflow: hidden;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .slides {
+        display: flex;
+        width: 100%;
+        transition: transform 2s ease-in-out;
+    }
+
+    .slide {
+        width: 100%;
+        flex: 1 0 100%;
+    }
+
+        .slide img {
+            width: 100%;
+            height: 300px; /* Đặt chiều cao cố định để tạo hình chữ nhật */
+            object-fit: contain; /* Đảm bảo ảnh bao phủ toàn bộ khung chứa mà không bị biến dạng */
+            display: block;
+        }
+
+    input[name="slide"] {
+        display: none;
+    }
+
+    #slide1:checked ~ .slides {
+        transform: translateX(0%);
+    }
+
+    #slide2:checked ~ .slides {
+        transform: translateX(-100%);
+    }
+
+    #slide3:checked ~ .slides {
+        transform: translateX(-200%);
+    }
+
+    .navigation {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 10px;
+    }
+
+    .nav-btn {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    #slide1:checked ~ .navigation .nav-btn:nth-child(1),
+    #slide2:checked ~ .navigation .nav-btn:nth-child(2),
+    #slide3:checked ~ .navigation .nav-btn:nth-child(3) {
+        background-color: #717171;
+    }
+</style>
+
+<h2>Tìm kiếm hoa</h2>
+
+@*<form method="get" action="@Url.Action("SearchHoa", "Hoa")">
+        <input type="text" name="searchTerm" placeholder="Nhập tên hoa" />
+        <button type="submit">Tìm kiếm</button>
+    </form>*@
+
+@if (Model != null && Model.Count > 0)
+{
+    <h3>Kết quả tìm kiếm:</h3>
+    <div class="container">
+        <div class="row">
+            @foreach (var flower in Model)
+            {
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="/MoTa/@flower.mota" class="card-link">
+                        <div class="card">
+                            <div class="card-header">@flower.tenhoa</div>
+                            <div class="card-body">
+                                <img src="~/Anhbia_44/@flower.anhbia" alt="@flower.tenhoa" />
+
+                            </div>
+                            <div class="card-footer">
+                                @flower.giaban.ToString("N0")đ
+                                <form action="/Cart/AddToCart" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="id" value="@flower.mahoa" />
+                                    <input type="number" name="quantity" value="1" min="1" class="form-control" />
+                                    <button type="submit" class="btn-add-to-cart"><i class="fa-solid fa-cart-plus"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <p>Không có kết quả nào.</p>
+}

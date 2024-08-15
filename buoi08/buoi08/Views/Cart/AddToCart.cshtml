@@ -1,0 +1,20 @@
+﻿@using System.Web.MVC;
+@using System.Web;
+@using buoi08.Models;
+@model Hoa
+@{
+    ViewBag.Title = "AddToCart";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<h2>AddToCart</h2>
+
+<div class="product">
+    <h3>@Model.tenhoa</h3>
+    <p>@Model.giaban.ToString("N0")đ</p>
+    <form action="/Cart/AddToCart" method="post">
+        <input type="hidden" name="id" value="@Model.mahoa" />
+        <input type="number" name="quantity" value="1" min="1" />
+        <button type="submit" class="btn btn-primary">Thêm vào giỏ hàng</button>
+    </form>
+</div>

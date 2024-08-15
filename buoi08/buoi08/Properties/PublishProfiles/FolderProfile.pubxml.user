@@ -1,0 +1,993 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Lập trình web\Đồ án web\DO AN ANH HIEU lan 2\Do An Web</_PublishTargetUrl>
+    <History>True|2024-08-09T02:18:20.1228065Z;True|2024-08-09T09:08:31.6845711+07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Anhbia_44/7044033_zalo_icon.png">
+      <publishTime>08/01/2024 01:29:48</publishTime>
+    </File>
+    <File Include="Anhbia_44/anhslide1.jpeg">
+      <publishTime>08/02/2024 19:20:54</publishTime>
+    </File>
+    <File Include="Anhbia_44/anhslide2.jpeg">
+      <publishTime>08/02/2024 19:21:02</publishTime>
+    </File>
+    <File Include="Anhbia_44/bocongthuong.jpg">
+      <publishTime>08/01/2024 16:14:14</publishTime>
+    </File>
+    <File Include="Anhbia_44/lien_he.jpg">
+      <publishTime>07/31/2024 09:40:48</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000001.jpg">
+      <publishTime>07/31/2024 07:55:28</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000002.jpg">
+      <publishTime>07/31/2024 00:15:26</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000003.jpg">
+      <publishTime>07/31/2024 00:20:16</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000004.jpg">
+      <publishTime>07/31/2024 07:55:52</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000005.jpg">
+      <publishTime>07/31/2024 07:56:14</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000006.jpg">
+      <publishTime>07/31/2024 07:56:28</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000007.jpg">
+      <publishTime>07/31/2024 08:09:26</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000008.jpg">
+      <publishTime>07/31/2024 08:11:16</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000009.jpg">
+      <publishTime>07/31/2024 08:18:40</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000011.jpg">
+      <publishTime>07/31/2024 08:19:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000012.jpg">
+      <publishTime>07/31/2024 08:19:56</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000013.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000014.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000015.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000016.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000017.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000018.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000019.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000020.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000021.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000022.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000023.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000024.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000025.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000026.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000027.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000028.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000029.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000030.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000031.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000032.jpg">
+      <publishTime>07/31/2024 08:44:34</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000033.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000034.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000035.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000036.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000037.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000038.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000039.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000040.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000041.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000042.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000043.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000044.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000045.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000046.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000047.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP00008.jpg">
+      <publishTime>07/31/2024 08:19:00</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000088.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000089.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000090.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000091.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000092.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000093.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000094.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000095.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000096.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000097.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000098.jpg">
+      <publishTime>07/31/2024 08:44:36</publishTime>
+    </File>
+    <File Include="Anhbia_44/SP000099.jpg">
+      <publishTime>07/31/2024 08:56:04</publishTime>
+    </File>
+    <File Include="anhhoa/SP000001.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000002.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000003.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000004.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000005.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000006.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000007.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000008.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000009.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000011.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000012.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000013.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000014.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000015.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000016.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000017.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000018.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000019.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000020.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000021.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000022.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000023.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000024.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000025.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000026.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000027.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000028.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000029.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000030.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000031.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000032.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000033.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000034.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000035.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000036.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000037.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000038.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000039.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000040.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000041.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000042.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000043.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000044.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000045.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000046.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000047.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP00008.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000088.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000089.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000090.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000091.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000092.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000093.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000094.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000095.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000096.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000097.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000098.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/SP000099.jpg">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/tintuc1.png">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/tintuc2.png">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/tintuc3.png">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="anhhoa/tintuc4.png">
+      <publishTime>08/09/2024 07:41:56</publishTime>
+    </File>
+    <File Include="Areas/Admin/models/Model1.edmx.diagram">
+      <publishTime>08/08/2024 12:03:01</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChiTietDonHangs/Create.cshtml">
+      <publishTime>08/09/2024 00:00:08</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChiTietDonHangs/Delete.cshtml">
+      <publishTime>08/09/2024 00:00:09</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChiTietDonHangs/Details.cshtml">
+      <publishTime>08/09/2024 00:00:09</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChiTietDonHangs/Edit.cshtml">
+      <publishTime>08/09/2024 00:00:09</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/ChiTietDonHangs/Index.cshtml">
+      <publishTime>08/09/2024 01:14:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/DonHangs/Create.cshtml">
+      <publishTime>08/08/2024 23:08:39</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/DonHangs/Delete.cshtml">
+      <publishTime>08/08/2024 23:08:39</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/DonHangs/Details.cshtml">
+      <publishTime>08/08/2024 23:08:39</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/DonHangs/Edit.cshtml">
+      <publishTime>08/08/2024 23:08:40</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/DonHangs/Index.cshtml">
+      <publishTime>08/09/2024 01:14:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Hoas/Create.cshtml">
+      <publishTime>08/08/2024 12:04:51</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Hoas/Delete.cshtml">
+      <publishTime>08/08/2024 12:04:52</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Hoas/Details.cshtml">
+      <publishTime>08/08/2024 12:04:52</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Hoas/Edit.cshtml">
+      <publishTime>08/08/2024 18:23:58</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Hoas/Index.cshtml">
+      <publishTime>08/09/2024 07:44:48</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Home/Index.cshtml">
+      <publishTime>08/08/2024 13:21:53</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHangs/Create.cshtml">
+      <publishTime>08/08/2024 23:08:02</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHangs/Delete.cshtml">
+      <publishTime>08/08/2024 23:08:02</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHangs/Details.cshtml">
+      <publishTime>08/08/2024 23:08:03</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHangs/Edit.cshtml">
+      <publishTime>08/08/2024 23:08:03</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/KhachHangs/Index.cshtml">
+      <publishTime>08/09/2024 01:14:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LienHes/Create.cshtml">
+      <publishTime>08/08/2024 23:49:03</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LienHes/Delete.cshtml">
+      <publishTime>08/08/2024 23:49:04</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LienHes/Details.cshtml">
+      <publishTime>08/08/2024 23:49:04</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LienHes/Edit.cshtml">
+      <publishTime>08/08/2024 23:49:05</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LienHes/Index.cshtml">
+      <publishTime>08/09/2024 01:14:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LoaiHoas/Create.cshtml">
+      <publishTime>08/08/2024 23:36:08</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LoaiHoas/Delete.cshtml">
+      <publishTime>08/08/2024 23:36:08</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LoaiHoas/Details.cshtml">
+      <publishTime>08/08/2024 23:36:09</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LoaiHoas/Edit.cshtml">
+      <publishTime>08/08/2024 23:36:09</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/LoaiHoas/Index.cshtml">
+      <publishTime>08/09/2024 01:14:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaCungCaps/Create.cshtml">
+      <publishTime>08/08/2024 23:38:48</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaCungCaps/Delete.cshtml">
+      <publishTime>08/08/2024 23:38:48</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaCungCaps/Details.cshtml">
+      <publishTime>08/08/2024 23:38:48</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaCungCaps/Edit.cshtml">
+      <publishTime>08/08/2024 23:38:49</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/NhaCungCaps/Index.cshtml">
+      <publishTime>08/09/2024 01:14:06</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/PhuongThucThanhToans/Create.cshtml">
+      <publishTime>08/08/2024 23:45:49</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/PhuongThucThanhToans/Delete.cshtml">
+      <publishTime>08/08/2024 23:45:50</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/PhuongThucThanhToans/Details.cshtml">
+      <publishTime>08/08/2024 23:45:50</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/PhuongThucThanhToans/Edit.cshtml">
+      <publishTime>08/08/2024 23:45:50</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/PhuongThucThanhToans/Index.cshtml">
+      <publishTime>08/09/2024 01:23:18</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/AdminLayoutPage1.cshtml">
+      <publishTime>08/09/2024 00:54:34</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>08/09/2024 07:55:31</publishTime>
+    </File>
+    <File Include="bin/buoi08.dll">
+      <publishTime>08/09/2024 09:08:28</publishTime>
+    </File>
+    <File Include="bin/buoi08.pdb">
+      <publishTime>08/09/2024 09:08:28</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 16:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 16:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/22/2015 18:06:54</publishTime>
+    </File>
+    <File Include="bin/PayPal.dll">
+      <publishTime>10/23/2017 23:17:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="Content/template/neworder.html">
+      <publishTime>08/05/2024 17:39:08</publishTime>
+    </File>
+    <File Include="File PDF/baocuacaonhom15.pdf">
+      <publishTime>08/09/2024 01:52:17</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/29/2024 16:51:38</publishTime>
+    </File>
+    <File Include="Views/Cart/AddToCart.cshtml">
+      <publishTime>08/07/2024 21:36:23</publishTime>
+    </File>
+    <File Include="Views/Cart/Cart.cshtml">
+      <publishTime>08/07/2024 21:36:23</publishTime>
+    </File>
+    <File Include="Views/Hoa/SearchHoa.cshtml">
+      <publishTime>08/09/2024 00:40:11</publishTime>
+    </File>
+    <File Include="Views/Hoa/SortByName.cshtml">
+      <publishTime>08/09/2024 00:40:13</publishTime>
+    </File>
+    <File Include="Views/Home44/bht.cshtml">
+      <publishTime>08/03/2024 18:41:03</publishTime>
+    </File>
+    <File Include="Views/Home44/chude.cshtml">
+      <publishTime>07/31/2024 00:23:34</publishTime>
+    </File>
+    <File Include="Views/Home44/csbm.cshtml">
+      <publishTime>08/01/2024 09:54:20</publishTime>
+    </File>
+    <File Include="Views/Home44/csgh.cshtml">
+      <publishTime>08/01/2024 09:50:40</publishTime>
+    </File>
+    <File Include="Views/Home44/dksd.cshtml">
+      <publishTime>08/01/2024 09:50:40</publishTime>
+    </File>
+    <File Include="Views/Home44/FaileureView.cshtml">
+      <publishTime>08/07/2024 21:36:23</publishTime>
+    </File>
+    <File Include="Views/Home44/ghcm.cshtml">
+      <publishTime>08/03/2024 18:39:10</publishTime>
+    </File>
+    <File Include="Views/Home44/hoacuoi.cshtml">
+      <publishTime>08/03/2024 18:41:03</publishTime>
+    </File>
+    <File Include="Views/Home44/hoasap.cshtml">
+      <publishTime>08/03/2024 18:41:03</publishTime>
+    </File>
+    <File Include="Views/Home44/httt.cshtml">
+      <publishTime>08/01/2024 09:55:00</publishTime>
+    </File>
+    <File Include="Views/Home44/Index.cshtml">
+      <publishTime>08/09/2024 00:39:04</publishTime>
+    </File>
+    <File Include="Views/Home44/kehoa.cshtml">
+      <publishTime>08/03/2024 18:41:03</publishTime>
+    </File>
+    <File Include="Views/Home44/Lienhe.cshtml">
+      <publishTime>08/01/2024 16:22:46</publishTime>
+    </File>
+    <File Include="Views/Home44/Login.cshtml">
+      <publishTime>07/31/2024 08:46:46</publishTime>
+    </File>
+    <File Include="Views/Home44/Logout.cshtml">
+      <publishTime>08/01/2024 15:53:26</publishTime>
+    </File>
+    <File Include="Views/Home44/PaymentSuccess.cshtml">
+      <publishTime>08/07/2024 21:36:23</publishTime>
+    </File>
+    <File Include="Views/Home44/PaymentWithPaypal.cshtml">
+      <publishTime>08/07/2024 21:36:23</publishTime>
+    </File>
+    <File Include="Views/Home44/Register.cshtml">
+      <publishTime>08/08/2024 00:17:53</publishTime>
+    </File>
+    <File Include="Views/Home44/SuccessView.cshtml">
+      <publishTime>08/07/2024 21:36:23</publishTime>
+    </File>
+    <File Include="Views/Home44/ThanhToan.cshtml">
+      <publishTime>08/07/2024 21:41:38</publishTime>
+    </File>
+    <File Include="Views/Home44/ThanhToanCancel.cshtml">
+      <publishTime>08/07/2024 21:36:23</publishTime>
+    </File>
+    <File Include="Views/Home44/ThanhToanOnline.cshtml">
+      <publishTime>08/07/2024 21:41:38</publishTime>
+    </File>
+    <File Include="Views/Home44/ThanhToanThanhCong.cshtml">
+      <publishTime>08/07/2024 21:36:23</publishTime>
+    </File>
+    <File Include="Views/Home44/Tintuc.cshtml">
+      <publishTime>08/01/2024 16:22:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000001.cshtml">
+      <publishTime>08/03/2024 14:59:16</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000002.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000003.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000004.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000005.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000006.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000007.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000008.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000009.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000010.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000011.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000012.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000013.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000014.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000015.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000016.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000017.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000018.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000019.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000020.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000021.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000022.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000023.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000024.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000025.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000026.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000027.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000028.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000029.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000030.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000031.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000032.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000033.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000034.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000035.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000036.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000037.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000038.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000039.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000040.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000041.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000042.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000043.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000044.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000045.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000046.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000047.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000088.cshtml">
+      <publishTime>08/03/2024 15:06:46</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000089.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000090.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000091.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000092.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000093.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000094.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000095.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000096.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000097.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000098.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/MoTa/SP000099.cshtml">
+      <publishTime>08/01/2024 01:06:04</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>07/30/2024 21:36:40</publishTime>
+    </File>
+    <File Include="Views/_shared/_LayoutPage1.cshtml">
+      <publishTime>08/09/2024 07:26:39</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/09/2024 09:18:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

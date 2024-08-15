@@ -1,0 +1,57 @@
+﻿@using System.Web;
+@using System.Web.Mvc;
+@using buoi08.Models;
+@model Cart
+@{ ViewBag.Title = "Cart";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml"; }
+
+<h2>Cart</h2>
+
+@if (Model.Items.Count == 0)
+{
+<p>Giỏ hàng của bạn hiện đang trống.</p> }
+else
+{
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Tổng cộng</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            var total = item.Price * item.Quantity;
+<tr>
+    <td>@item.ProductName</td>
+    <td>@item.Price.ToString("N0")đ</td>
+    <td>@item.Quantity</td>
+    <td>@total.ToString("N0")đ</td>
+    <td>
+        @using (Html.BeginForm("RemoveFromCart", "Cart", FormMethod.Post))
+        {
+@Html.AntiForgeryToken()
+                        <input type="hidden" name="id" value="@item.ProductId" />
+                                                <button type="submit" class="btn btn-danger">Xóa</button>}
+    </td>
+</tr>
+}
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" class="text-right"><strong>Tổng cộng:</strong></td>
+            <td>@Model.GetTotal().ToString("N0")đ</td>
+            <td></td>
+        </tr>
+    </tfoot>
+</table>}
+@using (Html.BeginForm("ThanhToan", "Home44", FormMethod.Post, new { @class = "form-inline" }))
+{
+@Html.AntiForgeryToken()
+                <input type="hidden" name="payment" value="true" />
+                                <button type="submit" class="btn btn-primary">Thanh Toán</button>
+}

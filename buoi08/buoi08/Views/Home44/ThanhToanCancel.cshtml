@@ -1,0 +1,12 @@
+﻿@using System.Web;
+@using System.Web.Mvc;
+@{
+    ViewBag.Title = "ThanhToanCancel";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<h2>Thanh Toán Đã Bị Hủy</h2>
+
+<p>Thanh toán của bạn đã bị hủy. Nếu bạn gặp phải bất kỳ vấn đề gì, vui lòng liên hệ với chúng tôi để được hỗ trợ.</p>
+<a href="@Url.Action("Index", "Cart")" class="btn btn-primary">Trở về giỏ hàng</a>
+

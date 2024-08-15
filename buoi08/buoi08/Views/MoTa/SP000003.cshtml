@@ -1,0 +1,146 @@
+﻿
+@{
+    ViewBag.Title = "SP000003";
+    Layout = "~/Views/_shared/_LayoutPage1.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bó hoa cát tường</title>
+    <style>
+
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            /*background-color: #fff;*/
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .product-image {
+            text-align: center;
+        }
+
+            .product-image img {
+                max-width: 225px;
+                height: 300px;
+            }
+
+        .product-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+            .product-info h1 {
+                font-size: 24px;
+                margin: 0;
+            }
+
+        .price {
+            font-size: 24px;
+            color: #f00;
+        }
+
+        .quantity {
+            display: flex;
+            align-items: center;
+        }
+
+            .quantity input {
+                width: 40px;
+                text-align: center;
+            }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+            .buttons button {
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+        .support-policy {
+            background-color: #e5f3e5;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+            .support-policy ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .support-policy li {
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+            }
+
+                .support-policy li img {
+                    margin-right: 10px;
+                }
+
+        .product-description {
+            margin-top: 20px;
+        }
+
+            .product-description ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            .product-description li {
+                margin-bottom: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-image">
+            <img src="~/Anhbia_44/SP000003.jpg" alt="Bó hoa cát tường">
+        </div>
+        <div class="product-info">
+            <div>
+                <h1>Bó hoa cát tường</h1>
+                <p>Mã: H164</p>
+                <p>Thương hiệu: Đang cập nhật | Tình trạng: Còn hàng</p>
+                <p class="price">100.000₫</p>
+                
+            </div>
+            
+        </div>
+        <div class="support-policy">
+            <h2>Chính sách hỗ trợ</h2>
+            <ul>
+                <li><i class="fas fa-check-circle"></i>&nbsp; Duyệt ảnh sản phẩm</li>
+                <li><i class="far fa-address-card"></i>&nbsp; Thẻ chúc mừng miễn phí</li>
+                <li><i class="fas fa-chalkboard"></i>&nbsp; Banner sản phẩm</li>
+                <li><i class="fas fa-motorcycle"></i>&nbsp; Giao hàng trong 2H</li>
+            </ul>
+        </div>
+        <div class="product-description">
+            <h2>Thông tin sản phẩm</h2>
+            <ul>
+                <li>1. Giá cả có thể thay đổi: Giá hoa tươi có thể biến động tùy theo thị trường. Chúng tôi cam kết sẽ cập nhật giá một cách minh bạch và hợp lý nhất.</li>
+                <li>2. Màu sắc hoa có thể khác biệt: Do điều kiện ánh sáng và góc chụp, màu sắc hoa trên hình ảnh có thể khác với thực tế. Chúng tôi luôn cố gắng cập nhật hình ảnh chân thực nhất cho sản phẩm.</li>
+                <li>3. Hoa theo mùa: Một số loại hoa có thể theo mùa. Tuy nhiên, chúng tôi sẽ nỗ lực giữ loại hoa chủ đạo và đảm bảo số lượng cũng như giá tương đương hoặc cao hơn.</li>
+                <li>4. Sản phẩm có thể khác ảnh mẫu: Mẫu bó hoa có thể khác so với hình ảnh mẫu, nhưng chúng tôi sẽ đảm bảo chất lượng và thiết kế tương đương.</li>
+            </ul>
+            <p>
+                Cảm ơn bạn đã tin tưởng ủng hộ!!!
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+
